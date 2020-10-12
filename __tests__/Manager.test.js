@@ -1,3 +1,4 @@
+const { expect } = require("@jest/globals");
 const Manager = require("../lib/manager")
 
 test('testing Manager constructor', () => {

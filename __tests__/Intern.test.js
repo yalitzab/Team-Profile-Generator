@@ -1,3 +1,4 @@
+const { expect } = require("@jest/globals");
 const Intern = require("../lib/intern")
 
 test('testing intern constructor', () => {

@@ -2,7 +2,7 @@ const { expect } = require("@jest/globals");
 const Engineer = require("../lib/Engineer")
 
 test('testing Engineer constructor', () => {
-    const engineer = new Engineer("Jack", 3, "jack@gmail.com");
+    const engineer = new Engineer("Jack", 3, "jack@gmail.com", "jackgithub");
     
     // test name, id, email
     expect(engineer.name).toEqual(expect.any(String))
